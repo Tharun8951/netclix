@@ -1,0 +1,56 @@
+$bg: rgb(16, 16, 16);
+
+.container {
+  height: 100vh;
+  background-color: $bg;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  .movieimg_carddetails {
+    width: 800px;
+  }
+  .title_desc {
+    margin: 40px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    padding: 20px;
+    font-size: 1rem;
+    font-weight: 100;
+    letter-spacing: 1px;
+    color: white;
+    .maintitle {
+      margin: 30px 0;
+    }
+    
+    h4{
+      color: white;
+      text-align: center;
+      margin: 7px 0;
+    }
+    p{
+      margin-top: 25px;
+    }
+  }
+  .button button{
+    z-index: 10;
+    width: 160px;
+    padding: 10px;
+    margin-left: 40px;
+    margin-top: 70px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: .8rem;
+    svg{
+        margin-right: 7px;
+        font-size: 1rem;
+    }
+    &:hover{
+        transform: scale(1.1);
+        transition: 0.3s;
+    }
+}
+}

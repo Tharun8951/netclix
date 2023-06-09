@@ -1,0 +1,55 @@
+$bg: rgb(16, 16, 16);
+
+.favcontainer {
+  background-color: rgba(0, 0, 0, 0.89);
+  min-height: 100vh;
+  padding: 40px;
+  h1{
+    color: white;
+  }
+}
+
+.containerFavPage {
+
+  .favoritepagemovie {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    height: 200px;
+    margin-bottom: 40px;
+    display: flex;
+
+    img {
+      align-items: center;
+      width: 300px;
+      padding: 10px;
+      border-radius: 20px;
+    }
+    .titleDesc{
+        align-items: center;
+        justify-content: center;
+        text-align: start;
+        width: 200px;
+        font-size:large;
+        h3{
+            margin: 20px 0;
+        }
+    }
+    button{
+        cursor: pointer;
+        margin: 50px;
+        padding: 15px 20px;
+        background-color: red;
+        color: white;
+        border-radius: 10px;
+
+        &:hover{
+            background-color: rgba(255, 255, 255, 0.909);
+            color: black;
+            transition: 0.3s;
+            transform: scale(1.1);
+        }
+    }
+  }
+}

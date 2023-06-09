@@ -1,0 +1,34 @@
+$bg: rgb(16, 16, 16);
+
+.header {
+    position: sticky;
+    top: 0%;
+    height: 80px;
+    background-color: $bg;
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+    box-sizing: border-box;
+    justify-content: space-between;
+    .logoImg{
+        height: 190%;
+    }
+    .favpagenav{
+        margin-left: 20px;
+    }
+    .logoLink{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 170%;
+    }
+    div{
+        width: 100%;
+        margin: 130px;
+        
+    }
+    .authButton{
+        color: white;
+        margin: 10px;
+    }
+}
